@@ -25,3 +25,8 @@ I_Slippage indicates the slippage used when closing the trades.<br>
 
 This is only a basic system and it does not deal with the more dynamic features of MetaTrader such as StopLevel, FreezeLevel, Limit orders,
 StopOrders, the addition of trades after the EA has been initated or changes to the instrument id when position sizes are adjusted.<br>
+
+As an example, lets say you had a spread of 20 points, but the spread had a tendancy to jump up to 60 points or there is a 60 point stoplevel
+on the symbol.   You could add a trade with stoploss and takeprofit in excess of say 200 points and then add a hidden stoploss
+and take profit of say 60 points without needing to worry about the stop hunting or the stoplevel.   If however the EA stops working or you
+lose connection to the server, then your positions become more vulnerable to large losses.
