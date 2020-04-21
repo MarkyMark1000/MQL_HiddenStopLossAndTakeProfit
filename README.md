@@ -1,8 +1,6 @@
-MQ4
+<h2>MQ4 - HiddenSLandTP:</h2>
 
-HiddenSLandTP:
-
-Inputs:
+<h4>Inputs:</h4>
 
 input int I_StopLoss_Points=50;           //Desired StopLoss in points.<br>
 input int I_TakeProfit_Points=50;         //Desired TakeProfit in points.<br>
