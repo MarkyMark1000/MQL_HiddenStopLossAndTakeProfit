@@ -8,6 +8,8 @@ input RelativePrice I_Relative=OpenPrice; //Use OpenPrice or Mid when calculatin
 input bool I_DrawLines=True;              //Draw Lines on Chart.<br>
 input int I_Slippage=5;                   //Slippage used when closing the trades.<br>
 
+<h4>Description:</h4>
+
 This Expert Advisor is a very basic Hidden StopLoss and TakeProfit System.<br>
 
 Firstly, a trade must be entered onto the chart, preferably with a large stoploss and takeprofit value.<br>
